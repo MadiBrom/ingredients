@@ -1,0 +1,17 @@
+#cat {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px green inset;
+  padding: 50px;
+  margin: 20px;
+}
+h1 {
+  color: rgba(103, 155, 7, 0.945);
+  background-color: black;
+  font-weight: 100;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: rgb(8, 12, 1);
+}
