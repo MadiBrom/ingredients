@@ -1,13 +1,13 @@
 #cat {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px green inset;
-  padding: 50px;
+  background-color: rgba(63, 43, 1, 0.644);
+  width: 100px;
+  border: 8px green inset;
+  padding: 5px;
   margin: 20px;
 }
 h1 {
   color: rgba(103, 155, 7, 0.945);
-  background-color: black;
+  background-color: rgb(24, 15, 0);
   font-weight: 100;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
