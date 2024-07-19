@@ -15,3 +15,35 @@ h1 {
 body {
   background-color: rgb(8, 12, 1);
 }
+
+#box {
+  background-color: rgba(31, 255, 236, 0.644);
+  width: 200px;
+  border: 8px dotted green;
+  padding: 5px;
+  display: inline-block;
+}
+
+#box1 {
+  background-color: rgba(0, 38, 255, 0.644);
+  width: 200px;
+  border: 8px dotted green;
+  padding: 5px;
+  display: inline-block;
+}
+
+#box2 {
+  background-color: rgba(204, 5, 204, 0.644);
+  width: 200px;
+  border: 8px dotted green;
+  padding: 5px;
+  display: inline-block;
+}
+
+#box3 {
+  background-color: rgba(63, 1, 1, 0.644);
+  width: 200px;
+  border: 8px dotted green;
+  padding: 5px;
+  display: inline-block;
+}
