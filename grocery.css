@@ -1,74 +1,87 @@
+/* Title */
 h1 {
+  border: 1px solid green;
+  box-shadow: 5px 10px 20px rgba(166, 255, 0, 0.678);
   color: rgba(103, 155, 7, 0.945);
   background-color: rgb(24, 15, 0);
   font-weight: 100;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
+
+/* Background */
 body {
   background-color: rgb(8, 12, 1);
 }
-
-#box {
-  background-color: rgba(31, 255, 236, 0.644);
-  font-size: 25px;
-  display: inline-block;
-  width: 200px;
-  border: 8px dotted green;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 40px;
-  margin-left: 40px;
+/* Align */
+.align {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.align1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.box {
+  order: 3;
+}
+.box1 {
+  order: 3;
 }
 
-#box1 {
-  background-color: rgba(0, 38, 255, 0.644);
-  font-size: 25px;
-  display: inline-block;
-  width: 300px;
-  border: 8px dotted green;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 40px;
-  margin-left: 40px;
-}
-
-#box2 {
-  background-color: rgba(204, 5, 204, 0.644);
-  display: inline-block;
-  width: 200px;
-  border: 8px dotted green;
-  padding: 5px;
-  margin: 40px;
-}
-
-#box3 {
-  background-color: rgba(63, 1, 1, 0.644);
-  display: inline-block;
-  width: 200px;
-  border: 8px dotted green;
-  padding: 5px;
-  margin: 40px;
-}
+/* Woods */
 .local {
   background-color: rgba(63, 1, 1, 0);
-  display: inline-block;
   text-align: center;
-  width: 200px;
+  font-size: 50px;
+  width: 550px;
   border: 8px double rgb(119, 128, 0);
   padding: 5px;
+  display: inline-block;
   margin-left: 40px;
 }
+.box {
+  background-color: blue;
+  font-size: 18px;
+  display: inline-block;
+  width: 200px;
+  border: 8px dotted green;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+#potion {
+  width: 200px;
+  height: 180px;
+}
+
+/* Market*/
 .local1 {
   background-color: rgba(63, 1, 1, 0);
-  width: 200px;
+  text-align: center;
+  font-size: 50px;
+  width: 550px;
   border: 8px double rgb(119, 128, 0);
   padding: 5px;
   display: inline-block;
-  text-align: center;
   margin-left: 40px;
+}
+.box1 {
+  background-color: rgba(63, 1, 1, 0.644);
+  font-size: 18px;
+  display: inline-block;
+  width: 220px;
+  border: 8px dotted green;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+#pheonix {
+  width: 200px;
+  height: 180px;
 }
