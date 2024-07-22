@@ -40,8 +40,9 @@ body {
 #Woods {
   width: 200px;
   height: 180px;
-  margin-right: 40px;
+  margin-right: 10px;
   display: inline-block;
+  padding: 10px;
 }
 
 /* Market*/
@@ -74,4 +75,5 @@ body {
   height: 180px;
   margin-right: 10px;
   display: inline-block;
+  padding: 10px;
 }
