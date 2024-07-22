@@ -13,21 +13,6 @@ h1 {
 body {
   background-color: rgb(66, 66, 66);
 }
-/* Align */
-.align {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.align1 {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.box {
-  order: 3;
-}
-.box1 {
-  order: 3;
-}
 
 /* Woods */
 .local {
@@ -55,7 +40,8 @@ body {
 #Woods {
   width: 200px;
   height: 180px;
-  margin-right: 10px;
+  margin-right: 40px;
+  display: inline-block;
 }
 
 /* Market*/
@@ -87,4 +73,5 @@ body {
   width: 200px;
   height: 180px;
   margin-right: 10px;
+  display: inline-block;
 }
